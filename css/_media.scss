@@ -1,0 +1,82 @@
+@media (max-width:1400px){
+    .section-title{font-size:44px;}
+    main{
+        & > section{
+            margin: 3rem 0;
+        }
+    }
+    
+}
+
+
+@media (max-width:1199px){
+    .section-title{font-size:32px;}
+    .iconspack {
+        li{
+            width: 33.33%;
+        }
+    }
+}
+
+
+@media (max-width:991px){
+    .section-title{font-size:42px;}
+
+    .product-flex {
+        padding: 0 10px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        > *{
+            width: 100%;
+            padding: 10px;
+            float: none;
+        }
+        .banner-title{
+            order: 2;
+            padding: 25px 20px 0;
+            width: 100%;
+            p{
+                margin-bottom: 0;
+            }
+
+        }
+        .gallery{
+            order: 1;
+            width: 100%;
+            padding: 0;
+        }
+        .pro-add-opt{
+            order: 3;
+            padding: 20px;
+            width: 100%;
+        }
+    }
+    .iconspack{
+        li{
+            width: 50%;
+        }
+    }
+    .bg-overlay{
+        .bg-full-width{
+            height: 75vh;
+        }
+    }
+}
+
+
+@media (max-width:767px){
+    .section-title{font-size:32px;}
+    main{
+        & > section{
+            margin: 0 0;
+        }
+    }
+    .app-design {
+        padding: 2rem 0;
+    }
+    main .product-flex, main .iconspack, main .faq, main .mic-technology {
+        margin: 1rem 0;
+    }
+}
